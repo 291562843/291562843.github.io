@@ -3,11 +3,11 @@ function _music(){
     var bgmbt = document.getElementById("bt");
     if (audio.paused){
         audio.play();
-        bgmbt.textContent = "Pause Music";
+        bgmbt.textContent = "BGM Pause";
     }
     else{
         audio.pause();
-        bgmbt.textContent = "Play Music";
+        bgmbt.textContent = "BGM Play";
     }
 
 }
